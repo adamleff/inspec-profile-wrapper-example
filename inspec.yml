@@ -1,0 +1,13 @@
+name: wrapper-example
+title: Profile Inheritance Example
+maintainer: Adam Leff
+copyright: Chef Software, Inc.
+copyright_email: adamleff@chef.io
+license: Apache-2.0
+summary: This profile shows how controls from other profiles can be inherited, executed, and modified as needed.
+version: 0.1.0
+depends:
+  - name: linux-baseline
+    url: https://github.com/dev-sec/linux-baseline/archive/master.tar.gz
+  - name: ssh-baseline
+    url: https://github.com/dev-sec/ssh-baseline/archive/master.tar.gz
